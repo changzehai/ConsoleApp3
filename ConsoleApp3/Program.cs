@@ -7,6 +7,11 @@ namespace ConsoleApp3
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            int a = 111;
+            int b = 222;
+            int c = a * b;
+
+            Console.WriteLine("c = "+c);
         }
     }
 }
